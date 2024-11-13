@@ -1,0 +1,164 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px 0 140px;
+    height: 80px;
+    align-items: center;
+}
+.logo{
+
+    font-size: 48px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.navList{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.MobileMenu{
+    display: none;
+}
+.navList li{
+    list-style: none;
+    color: #388E3B;
+    cursor: pointer;
+}
+
+/* **************Banner section****************** */
+.banner{
+    background-color: #F5F7FA;
+    border-bottom-right-radius: 168px;
+    padding: 46px 144px 46px 144px;
+}
+.slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sliderContent h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.sliderContent p{
+    padding-bottom: 20px;
+}
+.exploreBTN{
+    background-color: #388E3B;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.sliderButton{
+    text-align: center;
+}
+.sliderImgage{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+/* ***********Project section**************** */
+.projects{
+    margin: 40px 80px 65px 80px;
+}
+.projects h1{
+    text-align: center;
+}
+.project{
+    padding-top: 60px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+}
+.card i{
+    color: #388E3B;
+    font-size: 100px;
+}
+.card p{
+    text-align: justify;
+}
+.card h3{
+    padding: 6px 0 6px 0;
+}
+
+/* ***************technology***************** */
+.technology{
+    background: #F5F7FA;
+    padding: 0 40px 0 40px;
+
+}
+.technology h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.techIcon{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+/*************** explore section*********** */
+.explore{
+    height: 326px;
+}
+.explore h1{
+    padding-top: 149px;
+text-align: center;
+    color: #388E3B;
+line-height: 28px;
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 0.1px;
+}
+
+/* ************Footer section *********** */
+footer{
+    background-color: #263238;
+    padding: 33px 60px 0 60px;
+}
+.footerContent{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.f1 h1{
+    font-size: 48px;
+    line-height: 28px;
+}
+.f1 p{
+    font-size: 12px;
+    line-height: 28px;
+}
+.footerList h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footerList p{
+    color: #c5c5c5;
+    font-size: 15px;
+    line-height: 38px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+}

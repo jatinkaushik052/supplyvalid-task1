@@ -1,5 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
     nav{
         margin: 0 10px 0 10px;
     }
@@ -20,9 +21,13 @@
     }
     .techIcon{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .footerContent{
         flex-wrap: wrap;
+    }
+    .card{
+        min-width: 100%;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
